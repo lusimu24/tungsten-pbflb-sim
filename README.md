@@ -2,6 +2,7 @@
 # Thermal Simulation of PBF-LB on Pure Tungsten
 ### Modeling and Identification of Crack-Risk Areas
  
+The simulation is contained in the file model.ipynb. 
 A 2D finite-difference thermal model of a single laser scan track during
 Laser Powder Bed Fusion (PBF-LB) of pure tungsten, with a spatially-resolved
 cracking susceptibility index based on the G/V ratio at the solidification front.
