@@ -141,8 +141,7 @@ based additive manufacturing of tungsten: Multi-scale thermo-kinetic and thermo-
 computational model and experiments. Acta Materialia, 259:119244, 2023. ISSN 1359-6454.
 doi: https://doi.org/10.1016/j.actamat.2023.119244.
 - Mahmoud S. Seyam, Philip Koshy, and Mohamed A. Elbestawi. Laser powder bed fusion of
-unalloyed tungsten: A review of process, structure, and properties relationships. Metals, 12(2),
-2022. ISSN 2075-4701. doi: 10.3390/met12020274
+unalloyed tungsten: A review of process, structure, and properties relationships. Metals, 12(2), 2022. ISSN 2075-4701. doi: 10.3390/met12020274
 
 ---
  
