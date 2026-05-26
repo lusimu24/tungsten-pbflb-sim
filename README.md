@@ -110,7 +110,7 @@ block_05_visualize      →  Final figure (temperature snapshots,
 Clone the repository and install dependencies:
  
 ```bash
-git clone https://github.com/simonerizzo/tungsten-pbflb-sim.git
+git clone https://github.com/lusimu24/tungsten-pbflb-sim.git
 cd tungsten-pbflb-sim
 pip install -r requirements.txt
 ```
@@ -121,7 +121,7 @@ Run the blocks in sequence.
 
 ## Output
  
-The final figure (`tungsten_pbflb_results.png`) contains six panels:
+The final figure (`output.png`) contains six panels:
  
 - **Row 1**: Temperature field snapshots at 30%, 60%, 90%, 100% of scan.
   Cyan dashed line = melt pool boundary (T = T_melt).
@@ -129,7 +129,7 @@ The final figure (`tungsten_pbflb_results.png`) contains six panels:
 - **Row 2 right**: Melt pool width (y-direction) vs. time.
 - **Row 3 left**: Spatially-resolved G/V cracking susceptibility index (log scale).
 - **Row 3 right**: Final temperature field with low-G/V crack-risk zones overlaid.
-![Simulation output](figures/tungsten_pbflb_results.png)
+![Simulation output](output.png)
  
 ---
  
