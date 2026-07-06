@@ -1,0 +1,10 @@
+name: Inconel 718
+rho: 8200.0 #kg/m3 density
+cp: 425.0 #J/(kg.K) specific heat
+k: 11.4 #W/(m.K) thermal conductivity
+T_melt: 1533.0 #K melting temperature
+T_boil: 2873.0 #K boiling temperature
+L_fusion: 227000.0 #J/kg latent heat of fusion
+dT_mushy: 40.0 #K mushy zone half-width
+eta: 0.7 #absorptivity
+eta_2D: 0.35 #calibrated 2D absorptivity
