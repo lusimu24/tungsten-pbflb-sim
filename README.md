@@ -57,8 +57,6 @@ Where:
 
 ### Process parameters
  
-From literature, Sharma et al. (2025)
- 
 | Parameter         | Value       |
 |-------------------|-------------|
 | Laser power P     | 200 W       |
