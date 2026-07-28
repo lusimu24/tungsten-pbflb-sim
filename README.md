@@ -7,9 +7,7 @@ A 2D finite-difference thermal model of a single laser scan track during
 Laser Powder Bed Fusion (PBF-LB) of pure tungsten, with a spatially-resolved
 cracking susceptibility index based on the G/V ratio at the solidification front.
  
-Developed as part of a technical portfolio in support of a PhD application
-at the Department of Mechanical Engineering (DMEC), Politecnico di Milano,
-on the topic of additive manufacturing of refractory metals for nuclear fusion
+Developed as part of a technical portfolio on the topic of additive manufacturing of refractory metals for nuclear fusion
 applications.
 
 ---
@@ -87,21 +85,21 @@ From literature, Sharma et al. (2025)
  
 The simulation is divided into five independent blocks.
 ```
-block_01_config         →  Physical parameters + numerical setup
+block_01         →  Physical parameters + numerical setup
  
-block_02_helpers        →  Numerical functions + unit tests
+block_02         →  Numerical functions + unit tests
                            (cp_effective, gaussian_source,
                             laplacian_2d, neumann_bc)
  
-block_03_simulation     →  Explicit finite-difference time loop
-                           G/V accumulation at the solidification front
+block_03         →  Explicit finite-difference time loop
+                    G/V accumulation at the solidification front
  
-block_04_postprocess    →  G/V averaging and normalisation
-                           Cracking susceptibility index computation
+block_04         →  G/V averaging and normalisation
+                    Cracking susceptibility index computation
  
-block_05_visualize      →  Final figure (temperature snapshots,
-                           melt pool width, G/V map, crack-risk overlay)
-                           Output: tungsten_pbflb_results.png
+block_05         →  Final figure (temperature snapshots,
+                    melt pool width, G/V map, crack-risk overlay)
+                    Output: output.png
 ```
  
 ---
