@@ -63,7 +63,7 @@ From literature, Sharma et al. (2025)
 |-------------------|-------------|
 | Laser power P     | 200 W       |
 | Scan speed v      | 500 mm/s    |
-| Beam radius r_b   | 47 µm       |
+| Beam radius r_b   | 23.5 µm     |
 | Layer thickness   | 30 µm       |
 | Absorptivity η    | 0.50        |
 | Preheat temp T₀   | 423 K       |
@@ -74,7 +74,7 @@ From literature, Sharma et al. (2025)
 |---------------------------|------------------------|
 | Density ρ                 | 19 250 kg/m³           |
 | Specific heat cp          | 134 J/(kg·K)           |
-| Thermal conductivity k    | 173 W/(m·K)            |
+| Thermal conductivity k    | 174 W/(m·K)            |
 | Melting temperature       | 3695 K  (3422°C)       |
 | Boiling temperature       | 5828 K  (5555°C)       |
 | Latent heat of fusion     | 284 000 J/kg           |
