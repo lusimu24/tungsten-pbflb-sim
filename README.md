@@ -64,6 +64,7 @@ Where:
 | Beam radius r_b   | 23.5 µm     |
 | Layer thickness   | 30 µm       |
 | Absorptivity η    | 0.50        |
+| 2D Absorptivity η | 0.25        |
 | Preheat temp T₀   | 423 K       |
  
 ### Material properties — Pure Tungsten
@@ -87,6 +88,7 @@ block_01         →  Physical parameters + numerical setup
  
 block_02         →  Numerical functions + unit tests
                            (cp_effective, gaussian_source,
+                            ring_source as alternative heat sourcce,
                             laplacian_2d, neumann_bc)
  
 block_03         →  Explicit finite-difference time loop
